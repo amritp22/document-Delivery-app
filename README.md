@@ -70,7 +70,7 @@ A full-stack web application for **city-wide document & item delivery** — buil
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/home_page.png)
+![Home Page](screenshots/homePage.PNG)
 
 ### 📝 Create Delivery Request
 ![Create Delivery Request](screenshots/create_delivery_request.png)
@@ -79,22 +79,22 @@ A full-stack web application for **city-wide document & item delivery** — buil
 ![Distance & Cost Calculation](screenshots/distance_cost_calculation.png)
 
 ### 📋 User's My Orders
-![User's My Orders](screenshots/user_my_orders.png)
+![User's My Orders](screenshots/userOrders.png)
 
 ### 📍 Live Tracking Screen
-![Live Tracking Screen](screenshots/live_tracking.png)
+![Live Tracking Screen](screenshots/liveAgentTrack.png)
 
 ### 📋 Pending Orders (Agent)
-![Pending Orders (Agent)](screenshots/agent_pending_orders.png)
+![Pending Orders (Agent)](screenshots/agentPending.png)
 
 ### 🚦 Agent Status Update Screen
 ![Agent Status Update Screen](screenshots/agent_status_update.png)
 
 ### 🔔 Notification Popup (Agent)
-![Notification Popup (Agent)](screenshots/agent_notification.png)
+![Notification Popup (Agent)](screenshots/agent notification.png)
 
 ### 🔔 Notification Popup (User)
-![Notification Popup (User)](screenshots/user_notification.png)
+![Notification Popup (User)](screenshots/userNotification.png)
 
 ## 🛠️ Architecture
 
