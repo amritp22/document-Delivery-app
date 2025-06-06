@@ -88,10 +88,10 @@ A full-stack web application for **city-wide document & item delivery** — buil
 ![Pending Orders (Agent)](screenshots/agentPending.png)
 
 ### 🚦 Agent Status Update Screen
-![Agent Status Update Screen](screenshots/agent_status_update.png)
+![Agent Status Update Screen](screenshots/agentAssigned.png)
 
 ### 🔔 Notification Popup (Agent)
-![Notification Popup (Agent)](screenshots/agent notification.png)
+![Notification Popup (Agent)](screenshots/agentNotification.png)
 
 ### 🔔 Notification Popup (User)
 ![Notification Popup (User)](screenshots/userNotification.png)
