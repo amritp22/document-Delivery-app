@@ -5,6 +5,7 @@ A full-stack web application for **city-wide document & item delivery** — buil
 - 🏗️ Backend → **Spring Boot** + **MySQL** + **Spring Security** + **WebSocket**
 - 🎨 Frontend → **React.js** + **React Router** + **React Toastify**
 - 🌍 Real-time features → WebSocket-based Live Tracking + Notifications
+- 🤖 **GenAI-powered Chatbot** + Intelligent Instruction Support
 
 ---
 
@@ -35,6 +36,14 @@ A full-stack web application for **city-wide document & item delivery** — buil
   - View agent’s **live moving marker** on the map.
   - See the path between agent and destination (Polyline).
   - **Live Tracking** is powered by **WebSocket** (`/topic/location/{agentId}`).
+### 💬 GenAI-Powered Chat & Instructions
+Users can ask queries like:
+- "Where is my order?" → **"GenAI**" classifies intent as track_agent.
+- "How long will delivery take?" → AI responds based on ETA data.
+- When an agent is within 1km of the drop location, users are prompted to send last-minute special instructions via:
+- Natural language input
+  #### AI-assisted suggestion engine
+- Instructions are passed to the agent in real-time and stored with the order.
 
 ### 📝 My Orders (User)
 
@@ -83,7 +92,12 @@ A full-stack web application for **city-wide document & item delivery** — buil
 
 ### 📍 Live Tracking Screen
 ![Live Tracking Screen](screenshots/liveAgentTrack.png)
-
+### 🤖 GenAi Powered Chatbot
+![User's My Orders](screenshots/genAiChat.png)
+### ✍️ Last-Minute Instruction Prompt
+![User's My Orders](screenshots/lastMinDeliveryInstruction.png)
+### ✍️ GenAi Generated Instruction 
+![User's My Orders](screenshots/genAiInstruction.png)
 ### 📋 Pending Orders (Agent)
 ![Pending Orders (Agent)](screenshots/agentPending.png)
 
